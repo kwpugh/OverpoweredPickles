@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " B ",
+        "BAB",
+        " B "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:sea_pickle"
+        },
+        "B":
+        {
+            "item": "overpowered_pickles:pickle_star"
+        }
+    },
+    
+    "result":
+    {
+        "item": "overpowered_pickles:absurd_pickle",
+        "count": 1
+    }
+}

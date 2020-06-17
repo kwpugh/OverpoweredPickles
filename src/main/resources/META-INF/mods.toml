@@ -1,0 +1,32 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory (24 is current forge version)
+
+credits="Thanks to Udemy for great Java courses." #optional
+
+authors="kwpugh" #optional
+
+[[mods]] #mandatory
+modId="overpowered_pickles" #mandatory
+version="1.0.4" #mandatory
+displayName="OverpoweredPickles" #mandatory
+description='''
+A collection of overpowered pickles
+'''
+
+
+[[dependencies.overpowered_pickles]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+
+# Here's another dependency
+[[dependencies.overpowered_pickles]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

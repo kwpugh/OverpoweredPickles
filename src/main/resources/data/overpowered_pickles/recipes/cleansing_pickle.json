@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " B ",
+        "BAB",
+        " B "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        "B":
+        {
+            "item": "minecraft:sea_pickle"
+        }
+    },
+    
+    "result":
+    {
+        "item": "overpowered_pickles:cleansing_pickle",
+        "count": 1
+    }
+}
