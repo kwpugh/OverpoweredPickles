@@ -16,7 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit
 {
-	public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, OverpoweredPickles.modid);
+	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, OverpoweredPickles.modid);
 	
 	public static final RegistryObject<Item> PICKLE_STAR = ITEMS.register("pickle_star", () -> new Item(new Item.Properties().maxStackSize(16).group(OverpoweredPickles.itemgroup)));
 	
