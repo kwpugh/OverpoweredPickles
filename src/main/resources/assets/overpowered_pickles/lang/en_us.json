@@ -22,5 +22,5 @@
 	"item.overpowered_pickles.cleansing_pickle": "Cleansing Pickle",
 	"item.overpowered_pickles.cleansing_pickle.line1": "Restores health bar to normal 20 hearts",
 			
-	"itemGroup.overpowered_pickles.overpowered_pickles_group": "Overpowered Pickles"
+	"itemGroup.overpowered_pickles": "Overpowered Pickles"
 }
